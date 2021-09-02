@@ -22,13 +22,14 @@ function logicPromise() {
         //  resolve: 성공했을 때 값을 전달
         //  reject: 실패했을 때 사유를 전달
         setTimeout(() => {
-            // resolve("Success"); 
+            resolve("JSON"); 
             //  비동기 처리에 성공하면 resolve 함수를 실행한다
-            reject("REJECTED!");
+            // reject("REJECTED!");
         }, 2000);
         console.log("end logicPromise");
     });
 }
+
 
 function testLogicPromise() {
     console.log("Test logic Promise");

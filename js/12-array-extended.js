@@ -6,6 +6,8 @@ function testForEach() {
         //  콜백 함수의 인자가 1개: 개별 요소
         console.log(item);
     });
+    
+    // source.forEach(function(item) {})
 
     source.forEach((item, index) => {
         //  콜백 함수의 인자가 2개: 개별 요소, 배열 내의 인덱스
@@ -44,7 +46,7 @@ function testEvery() {
 
     //  every: 모든 요소가 콜백 함수의 조건을 만족시킬 때 true
     let result = data.every(x => {
-        return x.age > 25;
+        return x.age > 30;
     });
 
     console.log("----- every: age > 25 ?", result);
@@ -144,4 +146,4 @@ function filterMapReduce() {
         }, 0);
     console.log("Result:", result);
 }
-filterMapReduce();
+// filterMapReduce();

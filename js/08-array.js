@@ -122,9 +122,8 @@ console.log("SORT(ASC):", fruits);
 fruits.sort(function(v1, v2) {
     //  반환 값이 0: 순번이 같다
     //  내림차순 정렬의 예
-    if (v1 == v2) return 0;
-    if (v1 < v2) return 1
-    else return 1;
+    return (v2 - v1)
+    // return (v1 - v2) -> 오름차순
 });
 console.log("SORT(User Defined):", fruits);
 

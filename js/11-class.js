@@ -1,5 +1,5 @@
 //  원래 JavaScript는 Object-Based Language
-//      공유 영역인 protype 기반 상속
+//      공유 영역인 prototype 기반 상속
 //  ES6에서는 class 문법 추가 -> OOP 방식을 구현할 수 있다.
 class Shape {
     //  정적 메서드 : static
